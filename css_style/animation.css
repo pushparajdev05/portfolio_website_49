@@ -1,0 +1,72 @@
+@keyframes anime1
+{
+    0%
+    {
+        transform:translateX(-150px);
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+}
+@keyframes anime2
+{
+    0%
+    {
+        transform:translateX(200px);
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+}
+@keyframes anime3
+{
+    0%
+    {
+        transform:translateY(-150px);
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+}
+@keyframes anime4
+{
+    0%
+    {
+        transform:translateY(150px);
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+}
+@keyframes animehead
+{
+    0%
+    {
+        transform:translateY(90px);
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+}
+@keyframes iconani
+{
+    0%
+    {
+        transform:translateX(150px);
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+}
