@@ -21,11 +21,11 @@
     top:0;
     z-index:100;
 }
-h1
+header h1
 {
     font-size:25px;
     color:white;
-    animation:anime1 1.2s ;
+    animation:anime1 1s backwards;
 }
 a{
     display:inline-block;
@@ -36,11 +36,11 @@ nav a{
     color:white;
     margin-left:10px;
     text-align:center; 
-    animation:animehead 1.2s;
     padding-top:3px;
     border-radius:10px;
     height:35px;
-    animation-delay:calc(0.05s * var(--sec));
+    animation:animehead 0.2s backwards;
+    animation-delay:calc(0.2s * var(--sec));
     transition:0.2s;
 
 }
@@ -68,6 +68,7 @@ nav a:hover{
 body
 {
      background-color: rgb(11, 8, 46);
+     overflow-x:hidden;
 }
 #home
 {
@@ -89,14 +90,14 @@ p
 #span1,#span3
 {
     font-size:40px;
-    animation:anime3 1.2s ;
-    animation-delay:calc(0.1s * var(--sec));
+    animation:anime3 1s backwards;
+    animation-delay:calc(0.2s * var(--sec));
 }
 #span2
 {
     font-size:80px;
-    animation:anime1 1.2s ;
-    animation-delay:calc(0.1s * var(--sec));
+    animation:anime1 1s backwards;
+    animation-delay:calc(0.2s * var(--sec));
 }
 #p2
 {
@@ -104,19 +105,20 @@ p
     font-size:20px;
     text-align:justify;
     width:550px;
-    animation:anime4 1.2s;
-    animation-delay:calc(0.1s * var(--sec));
+    animation:anime2 1s backwards;
+    animation-delay:calc(0.2s * var(--sec));
 }
-img
+#div2 img
 {
     border-radius:40%;
     box-shadow: 0 0 5px  rgb(28, 131, 179),0 0 25px  rgb(28, 131, 179) ,0 0 50px  rgb(28, 131, 179) ,0 0 100px  rgb(28, 131, 179) ;
-    animation:anime2 1.2s ;
+    animation:anime2 1s backwards;
+    animation-delay:calc(0.2s * var(--sec));
 }
 #icon a
 {
-    animation:iconani 1.2s;
-    animation-delay: calc(0.05s * var(--sec));
+    animation:iconani 1s backwards;
+    animation-delay: calc(0.2s * var(--sec));
     font-size:20px;
     text-align:center;
     width:40px;
@@ -144,7 +146,7 @@ img
 {
     color:rgb(90, 189, 236);
 }
-#btn1 button
+#btn1 button,#btn2 button
 {
     border-radius:10px;
     border:3px solid rgb(90, 189, 236);
@@ -158,7 +160,11 @@ img
     transition:0.2s;
     box-shadow:0 0 5px  rgb(28, 131, 179),0 0 25px  rgb(28, 131, 179) ,0 0 50px  rgb(28, 131, 179) ,0 0 100px  rgb(28, 131, 179) ;
 }
-#btn1 button:hover
+#btn1 button{
+    animation:anime4 1s backwards;
+    animation-delay:calc(0.2s * var(--sec));
+}
+#btn1 button:hover,#btn2 button:hover
 {
     border:3px solid rgb(90, 189, 236);
     background-color:transparent;
