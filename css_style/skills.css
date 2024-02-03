@@ -1,0 +1,98 @@
+#tech h1,#professional h1{
+    text-decoration:underline;
+    text-underline-offset:10px;
+    color:white;
+    letter-spacing: 2px;
+}
+#tech h1{
+    align-self:center;
+}
+#skill
+{
+    min-height:var(--height); 
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content:center;
+}
+#tech
+{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(116, 133, 147);
+    width:600px;
+    justify-content:center;
+    margin-right:20px;
+}
+#professional
+{
+    background-color:bisque;
+    width:600px;
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+}
+.info span
+{
+    color:white; 
+}
+#nical
+{
+    margin-top:80px;
+}
+#nical .bar
+{
+    margin-bottom:30px;
+    margin-left:50px;
+    border-radius:10px;
+
+}
+#nical .bar i{
+    font-size:30px;
+    margin-left:-5px;
+}
+#nical .bar .progress{
+    position:relative;
+    width:70%;
+    height:5px;
+    background-color:black;
+    border-radius:10px;
+    margin-top:8px;
+}
+#nical .bar .progress span{
+    display:inline-block;
+    position:absolute;
+    height:100%;
+    border-radius:10px;
+    background-color:var(--blue);
+    transform-origin:left;
+    transform:scaleX(0);
+    animation:percentage 1s forwards;
+}
+.html span
+{
+    width:90%;
+}
+.css span
+{
+    width:70%;
+}
+.javascript span
+{
+    width:85%;
+}
+.nodejs span
+{
+    width:70%;
+}
+.reactjs span
+{
+    width:60%;
+}
+@keyframes percentage
+{
+    100%
+    {
+        transform:scaleX(1);
+    }
+}
+

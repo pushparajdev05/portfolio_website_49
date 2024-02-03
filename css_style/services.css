@@ -1,6 +1,6 @@
 #services
 {
-    height:var(--height);
+   min-height:var(--height);
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -9,7 +9,7 @@
 #services div[class="head-service"]{
     font-size:30px;
     color:white; 
-    margin-bottom:4cm;
+    margin-bottom:3cm;
     font-variant:small-caps;
 }
 #services div[class="head-service"] span{
@@ -19,8 +19,9 @@
 {
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(236px,0.56fr));
-    margin-bottom:4cm;
+    margin-bottom:2cm;
     column-gap:50px;
+    row-gap:50px;
     margin-left:50px;
     margin-right:50px;
 }

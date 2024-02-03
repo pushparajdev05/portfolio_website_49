@@ -1,24 +1,25 @@
 #about
 {
-    height:var(--height);
+    min-height:var(--height);
 
 }
 #about
 {
     display:flex;
+    flex-wrap:wrap;
     align-items:center;
     justify-content:space-around;
 }
 #div3 img
 {
-    width:350px;
+    width:380px;
     border-radius:40%;
     box-shadow: 0 0 5px  rgb(28, 131, 179),0 0 25px  rgb(28, 131, 179) ,0 0 50px  rgb(28, 131, 179) ,0 0 100px  rgb(28, 131, 179) ;
 }
 #about div:last-child
 {
     width:800px;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 #about div:first-child
 {
