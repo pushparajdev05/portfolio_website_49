@@ -10,7 +10,7 @@
 :root
 {
     --blue:rgb(67, 195, 255);
-    --height:836px;
+    --height:886px;
 }
 #head
 {
@@ -21,9 +21,10 @@
     padding: 0 50px 0;
     background-color:rgb(4, 4, 101);
     height:50px;
-    position:sticky;
+    position:fixed;
     top:0;
     z-index:100;
+    width:100%;
 }
 header h1
 {
@@ -80,7 +81,7 @@ body
     display:flex;
     flex-wrap:wrap-reverse;
     justify-content: space-between; 
-    padding: 0 100px 100px;
+    padding: 0 100px ;
     align-items:center;
 }
 #div2

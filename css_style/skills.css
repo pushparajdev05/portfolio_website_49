@@ -2,10 +2,11 @@
     text-decoration:underline;
     text-underline-offset:10px;
     color:white;
+    align-self:center;
     letter-spacing: 2px;
 }
 #tech h1{
-    align-self:center;
+    margin-left:-110px;
 }
 #skill
 {
@@ -13,23 +14,87 @@
     display:flex; 
     flex-wrap:wrap;
     justify-content:center;
+    align-items:center;
 }
 #tech
 {
     display:flex;
     flex-direction:column;
-    background-color: rgb(116, 133, 147);
     width:600px;
     justify-content:center;
     margin-right:20px;
 }
 #professional
 {
-    background-color:bisque;
     width:600px;
     display:flex;
     flex-direction:column;
     margin-left:20px;
+    min-height:600px;
+    justify-content:space-between;
+}
+.pro
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:20px; 
+}
+svg
+{
+    height:150px;
+    width:150;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(-90deg);
+}
+svg .circle
+{
+    stroke-width:5px;
+    stroke:black;
+    fill: transparent;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation:animate-bar 1s linear forwards;
+}
+.precentage,.prof
+{
+    color:white;
+}
+svg .path
+{
+    stroke-width:5px;
+    stroke:var(--blue);
+    fill:transparent;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+}
+.radical
+{
+    position:relative; 
+    margin-bottom:30px;
+    width:50%;
+}
+.radical .precentage
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin-top:-7px;
+    opacity: 0;
+    animation:show-text 0.5s 1s linear forwards;
+}
+.radical .prof
+{
+    text-align:center;
+    opacity:0;
+    animation:show-text 0.5s 1s linear forwards;
+}
+.radicals
+{
+    position:relative;
+    height:160px;
 }
 .info span
 {
@@ -68,6 +133,37 @@
     transform:scaleX(0);
     animation:percentage 1s forwards;
 }
+#nical .bar .progress span::after
+{
+    position:absolute;
+    background-color:rgb(53, 15, 177);
+    font-size:12px;
+    padding:1px 3px;
+    border-radius:3px;
+    color:white;
+    top:-20px;
+    left:95%;   
+}
+.html span::after
+{
+    content:"90%";
+}
+.css span::after
+{
+    content:"70%";
+}
+.javascript span::after
+{
+    content:"85%";
+}
+.nodejs span::after
+{
+    content:"70%";
+}
+.reactjs span::after
+{
+    content:"60%";
+}
 .html span
 {
     width:90%;
@@ -83,10 +179,43 @@
 .nodejs span
 {
     width:70%;
-}
+}    
 .reactjs span
 {
     width:60%;
+}
+.path-1{    animation:animate-path1 1s 1s linear forwards;  }
+.path-2{    animation:animate-path2 1s 1s linear forwards;  }
+.path-3{    animation:animate-path3 1s 1s linear forwards;  }
+.path-4{    animation:animate-path4 1s 1s linear forwards;  }
+
+@keyframes animate-path1
+{
+    100%
+    {
+        stroke-dashoffset:70;
+    }
+}
+@keyframes animate-path2
+{
+    100%
+    {
+        stroke-dashoffset:137;
+    }
+}
+@keyframes animate-path3
+{
+    100%
+    {
+        stroke-dashoffset:113;
+    }
+}
+@keyframes animate-path4
+{
+    100%
+    {
+        stroke-dashoffset:90;
+    }
 }
 @keyframes percentage
 {
@@ -95,4 +224,19 @@
         transform:scaleX(1);
     }
 }
+@keyframes animate-bar
+{
+    100%
+    {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes show-text
+{
+    100%
+    {
+        opacity: 1;
+    }
+}
+
 
