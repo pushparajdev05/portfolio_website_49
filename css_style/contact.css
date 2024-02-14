@@ -1,5 +1,42 @@
 #contact
 {
     min-height: var(--height);
-
+    /* display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); */
+    display:flex;
+    align-items:center ;
+    flex-wrap:wrap;
 }
+.content
+{
+    max-width:50%;
+    min-width:250px;
+}
+.fields input,textarea
+{
+    width:100%;
+    height:50px;
+    outline:none;
+    /* border:solid rgb(56, 56, 56) 2px; */
+    background-color: gray;
+    border-radius:6px;
+    z-index: 1;
+    margin-top:5px;
+}
+textarea{
+    height:200px;
+}
+input::placeholder,textarea::placeholder
+{
+    padding-left:10px;
+    color:black;
+}
+textarea::placeholder
+{
+    padding-top:15px;
+}
+/* .fields{
+    display:flex;
+    flex-direction:column;
+    background-color: aliceblue;
+} */
