@@ -166,7 +166,7 @@ p
     transition:0.2s;
     box-shadow:0 0 5px  rgb(28, 131, 179),0 0 25px  rgb(28, 131, 179) ,0 0 50px  rgb(28, 131, 179) ,0 0 100px  rgb(28, 131, 179) ;
 }
-#btn1 button{
+#btn1{
     animation:anime4 1s backwards;
     animation-delay:calc(0.2s * var(--sec));
 }
@@ -177,7 +177,39 @@ p
     color:rgb(90, 189, 236);
     box-shadow:none;
     cursor:pointer;
-    
+}
+#btn1:hover a{
+    color:var(--blue);
+
+}
+#btn1:hover
+{
+    background-color: transparent;
+    box-shadow: none;
+}
+#btn1 a
+{
+    display:block;
+    height:100%;
+    width:100%;
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    text-align:center;
+    transition:0.2s;
+}
+#btn1
+{
+    width:145px;
+    height:50px;
+    box-shadow:0 0 5px  rgb(28, 131, 179),0 0 25px  rgb(28, 131, 179) ,0 0 50px  rgb(28, 131, 179) ,0 0 100px  rgb(28, 131, 179) ;
+    border-radius:10px;
+    border:3px solid rgb(90, 189, 236);
+    margin-top: 40px;
+    background-color:rgb(90, 189, 236);
+    padding-top:12px;
+    transition:0.2s;
+
 }
 
 

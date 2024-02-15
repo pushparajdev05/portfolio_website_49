@@ -18,12 +18,13 @@
 #ser
 {
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(236px,0.56fr));
+    grid-template-columns:repeat(auto-fit,minmax(350px,0.56fr));
     margin-bottom:2cm;
     column-gap:50px;
     row-gap:50px;
     margin-left:50px;
     margin-right:50px;
+    justify-content: center;
 }
 #ser >div{
     border:solid 2px rgba(9, 60, 203,1);

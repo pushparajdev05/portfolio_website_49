@@ -6,35 +6,100 @@
     display:flex;
     align-items:center ;
     flex-wrap:wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.content,.fields
+{
+    max-width:45%;
+    min-width:350px;
 }
 .content
 {
-    max-width:50%;
-    min-width:250px;
+    margin-bottom:50px;
 }
+/* .fields{
+    margin-left:20px;
+} */
 .fields input,textarea
 {
     width:100%;
     height:50px;
     outline:none;
-    /* border:solid rgb(56, 56, 56) 2px; */
-    background-color: gray;
+    background-color: rgb(233, 233, 233);
     border-radius:6px;
     z-index: 1;
     margin-top:5px;
 }
 textarea{
     height:200px;
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top:15px;
+}
+.fields input
+{
+    padding-left: 10px;
+    font-size: 16px;
+    border:none;
+}
+.fields input:hover,textarea:hover
+{
+    cursor:pointer;
 }
 input::placeholder,textarea::placeholder
 {
-    padding-left:10px;
-    color:black;
+    padding-left:-10px;
 }
 textarea::placeholder
 {
-    padding-top:15px;
+    padding-top:-15px;
 }
+.fields #btn2 button
+{
+ width:100%;
+ text-align:center;
+ margin:0;
+}
+.fields #btn2 
+{
+    margin-top:20px;
+}
+.content h1{
+    color:white;
+    font-size: 30px;
+    margin-top:50px;
+}
+.content .para p{
+    font-size:18px;
+    margin-top:10px;
+    text-align:justify;
+    
+}
+.content h1 span
+{
+    color:var(--blue);
+}
+.content #icon
+{
+    margin-top:30px;
+}
+.content .email
+{
+    margin-top:20px;
+}
+.content .email i{
+    font-size:16px;
+    color:var(--blue);
+
+}
+.content .email i span
+{
+    color:white;
+    margin-left: 5px;
+}
+
+
 /* .fields{
     display:flex;
     flex-direction:column;
