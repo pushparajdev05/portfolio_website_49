@@ -125,6 +125,10 @@ svg .path
     background-color:black;
     border-radius:10px;
     margin-top:8px;
+    transform:scaleX(0);
+    transform-origin:left;
+    animation:percentage 1s forwards;
+    
 }
 #nical .bar .progress span{
     display:inline-block;
@@ -134,7 +138,7 @@ svg .path
     background-color:var(--blue);
     transform-origin:left;
     transform:scaleX(0);
-    animation:percentage 1s forwards;
+    animation:percentage 1s  1s forwards;
 }
 #nical .bar .progress span::after
 {
