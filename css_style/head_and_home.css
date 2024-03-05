@@ -26,6 +26,9 @@
     z-index:100;
     width:100%;
 }
+#head i{
+    display:none;
+}
 header h1
 {
     font-size:25px;

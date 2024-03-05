@@ -1,6 +1,8 @@
 var btn=document.getElementById("email");
 var text=document.getElementsByTagName('input');
-// console.log(descript);
+var menu=document.getElementById('bar1');
+var nav=document.getElementById('nav');
+console.log(nav);
 btn.addEventListener("click",()=>{
     var name1=text[0].value;
     var email=text[1].value;
@@ -18,4 +20,7 @@ btn.addEventListener("click",()=>{
     }).then(
       message => alert("the mail has sent")
     );
+});
+menu.addEventListener("click",()=>{
+    nav.classList.toggle("menu1")
 });

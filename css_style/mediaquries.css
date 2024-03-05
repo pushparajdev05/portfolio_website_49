@@ -1,0 +1,31 @@
+@media all and (max-width:800px)
+{
+    .menu
+    {
+        display:flex;
+        flex-direction:column;
+        background-color: rgb(12, 5, 77);
+        height:500px;
+        justify-content: space-evenly;
+        width:50%;
+        align-items:center ;
+        position:absolute;
+        right:-50%;
+        top:50px;
+        border-radius: 5px 0 0 5px;
+        transition:0.5s;
+    }
+    #head i{
+        display:block;
+        font-size: 34px;
+        color:white;
+        cursor: pointer;
+        animation:anime2 1s backwards;
+    }
+    .menu1
+    {
+        right:0;
+    }
+
+
+}
