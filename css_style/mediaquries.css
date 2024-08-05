@@ -1,4 +1,4 @@
-@media all and (max-width:800px)
+@media all and (max-width:820px)
 {
     .menu
     {
@@ -27,5 +27,50 @@
         right:0;
     }
 
+
+}
+@media all and (max-width:1170px)
+{
+ #home
+ {
+    flex-direction: column;
+    min-height: 800px ;
+ }
+ #div1
+ {
+    margin-top:70px;
+ }
+ #div3
+ {
+   margin-top:90px;
+   padding-bottom: 50px;
+ }
+ #div2
+ {
+    display:none;
+ }
+ #about
+ {
+    margin-top: -80px;
+    flex-wrap: wrap;
+ }
+}
+@media all and (max-width:1250px)
+{
+ #services
+ {
+    padding-top:100px;
+ }
+}
+@media all and (max-width:1219.5px)
+{
+ #skill
+ {
+    padding-top:100px;
+ }
+ #professional
+ {
+    margin-top:80px; 
+ }
 
 }

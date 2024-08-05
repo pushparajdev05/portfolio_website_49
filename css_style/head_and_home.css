@@ -25,6 +25,7 @@
     top:0;
     z-index:100;
     width:100%;
+    
 }
 #head i{
     display:none;
@@ -82,14 +83,18 @@ body
 {
     min-height:var(--height);
     display:flex;
-    flex-wrap:wrap-reverse;
     justify-content: space-between; 
     padding: 0 100px ;
     align-items:center;
+    position:relative;
+    top:-77px;
+    padding-top: 150px;
 }
+
+
 #div2
 {
-    padding-right:65px;
+
     padding-bottom:50px;
 }
 p

@@ -6,7 +6,6 @@
 #about
 {
     display:flex;
-    flex-wrap:wrap;
     align-items:center;
     justify-content:space-around;
 }
@@ -18,12 +17,13 @@
 }
 #about div:last-child
 {
-    width:800px;
+    padding:0 50px;
     margin-bottom:60px;
 }
 #about div:first-child
 {
     margin-bottom:50px;
+    padding:0 50px;
 }
 #about p{
     text-align:justify;
