@@ -18,7 +18,7 @@
 #ser
 {
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(350px,0.56fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,0.56fr));
     margin-bottom:2cm;
     column-gap:50px;
     row-gap:50px;
@@ -47,7 +47,7 @@
 #ser .con
 {
     margin:20px;
-}
+}   
 #ser p{
     font-size:17px;
 }

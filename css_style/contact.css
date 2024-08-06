@@ -12,7 +12,9 @@
 .content,.fields
 {
     max-width:45%;
-    min-width:350px;
+    min-width:310px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .content
 {
