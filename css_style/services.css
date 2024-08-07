@@ -47,16 +47,13 @@
 #ser .con
 {
     margin:20px;
+    transition:0.6s;
 }   
 #ser p{
     font-size:17px;
 }
-div[class="ser-hover"]:hover
+#ser .con:hover
 {
     transform:translatey(-10px);
-    transition:0.6s;
-}
-div[class="ser-hover"]
-{
     transition:0.6s;
 }
