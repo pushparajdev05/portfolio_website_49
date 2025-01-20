@@ -1,0 +1,62 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgb(11, 8, 46);
+    display: grid;
+    place-items: center;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+.flex_layout
+{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.flex_layout a
+{
+ color:white;
+ text-decoration:none;
+ font-size:30px;
+ text-align:center;
+ border:none;
+ padding-top: 10px;
+ padding-bottom: 40px;
+}
+.flex_layout a span
+{
+    color:rgb(67, 195, 255);
+}
+#project_lists
+{
+    width:90%;
+}
+.project img
+{
+    width:100%;
+    min-width: 150px;
+    max-width: 800px;
+    border-radius:5px;
+}
+.project
+{
+   display:flex;
+   flex-direction:column; 
+}
+.title
+{
+    color:white;
+    margin-block: 40px;
+    font-size:40px;
+    text-align: center;
+}
+.title span
+{
+    color:rgb(67, 195, 255);
+}
