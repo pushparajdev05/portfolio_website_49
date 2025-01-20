@@ -11,19 +11,22 @@
 }
 #div3 img
 {
-    width:380px;
+    width:300px;
     border-radius:40%;
     box-shadow: 0 0 5px  rgb(28, 131, 179),0 0 25px  rgb(28, 131, 179) ,0 0 50px  rgb(28, 131, 179) ,0 0 100px  rgb(28, 131, 179) ;
 }
 #about div:last-child
 {
-    padding:0 50px;
+    padding-left:50px;
     margin-bottom:60px;
+    padding-right:80px
+
 }
 #about div:first-child
 {
     margin-bottom:50px;
-    padding:0 50px;
+    padding-left:100px;
+    padding-right:50px
 }
 #about p{
     text-align:justify;
