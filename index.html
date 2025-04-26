@@ -14,7 +14,12 @@
     <link rel="stylesheet" href="css_style/mediaquries.css"> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./javascript/Emailjs_lib.js"></script>
+    <script>
+         (function() {
+    emailjs.init("hUihxL7r987Q1uWwU"); // Initialize EmailJS
+  })();
+    </script>
 </head>
 <body> 
     <header id="head">
@@ -254,7 +259,7 @@
         </div>
         <div class="fields slideRight">
             <input type="text" placeholder="Enter Your Name">
-            <input type="text" placeholder="Enter Your Email">
+            <input type="email" placeholder="Enter Your Email">
             <input type="text" placeholder="Enter Your Subject">
             <textarea name="description" id="area" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
             <div id="btn2">
